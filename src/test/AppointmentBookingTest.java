@@ -8,6 +8,7 @@ import junit.framework.TestCase;
 public class AppointmentBookingTest extends TestCase{
 	
 	   public void testBindAction() {	
+		   
 	      System.out.println("start testBindAction()");    
 	      JFrame frame = new JFrame("appointment booking system");
 	      appointmentbooking a = new appointmentbooking(frame);
